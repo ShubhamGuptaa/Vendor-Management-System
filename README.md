@@ -1,7 +1,7 @@
 **Vendor Management System** 
 
 *Introducing VMS*
-This system will handle vendor profiles, track purchase orders, and calculate vendor performance metrics.
+- This system will handle vendor profiles, track purchase orders, and calculate vendor performance metrics.
 
 **Requirements**
 - Python version 3.x
