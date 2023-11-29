@@ -9,7 +9,7 @@
 
 **Quick Installation & Setup**
 - Clone the repository using the command
-git clone https://www.github.com/ShubhamGuptaa/
+git clone https://github.com/ShubhamGuptaa/Vendor-Management-System.git
 
 - Create a virtual environment 
 virtualenv venv or python3 -m venv myenv
