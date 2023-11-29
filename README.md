@@ -1,13 +1,13 @@
-*** Vendor Management System ***
+**Vendor Management System** 
 
-* Introducing VMS *
+*Introducing VMS*
 This system will handle vendor profiles, track purchase orders, and calculate vendor performance metrics.
 
-** Requirements **
+**Requirements**
 - Python version 3.x
 - Django Version 4.x
 
-** Quick Installation & Setup **
+**Quick Installation & Setup**
 - Clone the repository using the command
 git clone https://www.github.com/ShubhamGuptaa/
 
@@ -25,7 +25,7 @@ python manage.py migrate
 python manage.py runserver
 
 
-** Vendor Profile Management: **
+**Vendor Profile Management**
 
 *API Endpoints*
 1. To create a new vendor
@@ -56,7 +56,7 @@ Request Body:
 url: http://127.0.0.1:8000/api/vendors/{vendor_id}/ [DELETE Method]
 
 
-** Purchase Order Tracking: **
+**Purchase Order Tracking**
 
 *API Endpoints*
 1. Create a purchase order.
@@ -95,12 +95,12 @@ Request Body:
 url: http://127.0.0.1:8000/api/purchase_orders/{po_id} [DELETE Method]
 
 
-** For vendors to acknowledge POs. **
+**For vendors to acknowledge POs.**
 - http://127.0.0.1:8000/api/purchase_orders/{po_id}/acknowledge [POST Method]
 This endpoint will update acknowledgment_date and trigger the recalculation
 of average_response_time.
 
-** Retrieves the calculated performance metrics for a specific vendor. **
+**Retrieves the calculated performance metrics for a specific vendor**
 - http://127.0.0.1:8000/api/vendors/{vendor_id}/performance
 
 It will return data including on_time_delivery_rate, quality_rating_avg, average_response_time, and fulfillment_rate.
