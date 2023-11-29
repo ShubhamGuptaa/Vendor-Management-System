@@ -1,4 +1,4 @@
-** Vendor Management System **
+*** Vendor Management System ***
 
 * Introducing VMS *
 This system will handle vendor profiles, track purchase orders, and calculate vendor performance metrics.
